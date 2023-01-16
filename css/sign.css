@@ -1,0 +1,194 @@
+:root {
+	color: white;
+	width: 100%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	height: 100%;
+	overflow-x: hidden;
+}
+#backdrop {
+	width: 100%;
+	position: fixed;
+	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	top: 0;
+	right: o;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/0678255b-ecfd-4775-999a-0680d539f07c/842b1f38-3a00-483c-9bfc-4611f4275334/NG-en-20221128-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo {
+	width: 9em;
+}
+#shade {
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	opacity: 0.73;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+#container {
+	position: relative;
+}
+.logo_area {
+	margin-top: 2em;
+	margin-left: 2em;
+}
+.box {
+	background-color: black;
+	opacity: 0.75;
+	padding: 60px;
+	width: 21em;
+	height: 31em;
+	border-radius: 10px;
+}
+.form_input {
+    width: 100% !important;
+	display: block;
+	margin-top: 20px;
+	border: none;
+	width: 90%;
+	height: 0.6em;
+	padding: 20px;
+	font-size: 15px;
+	background-color: rgb(59, 59, 59);
+	border-radius: 5px;
+}
+#feedback,
+#feedback2 {
+	color: #e50914;
+	text-align: center;
+	font-size: 16px;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.centred {
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+}
+h2 {
+	font-size: 32px;
+	margin-top: -0.5em;
+}
+.btn {
+	margin-top: 2em;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
+	
+	width: 100%;
+	border: none;
+}
+.sign_in  {
+	width: 100%;
+	background-color: #e50914;
+	height: 2em;
+	padding: 33px;
+	font-size: 17px;
+	color: white;
+	font-weight: bold;
+	padding-top: 10px;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+button:hover {
+	opacity: 0.9;
+}
+button:active {
+	transform: scale(0.9);
+}
+.left {
+	float: right;
+}
+a {
+	color: lightgray;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.more {
+	margin-top: 8em;
+	color: rgb(141, 141, 141);
+}
+.blue {
+	color: rgb(115, 115, 255);
+}
+.new {
+	font-size: 17px;
+}
+footer {
+	width: 100%;
+	position: relative;
+	margin-left: -1em;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-top: 5%;
+}
+
+.sign-in__link{
+    width: 100%;
+}
+
+.first {
+	display: flex;
+	justify-content: center;
+}
+.one {
+	display: flex;
+	flex-direction: column;
+	margin: 2em;
+	margin-top: 1em;
+	line-height: 2em;
+}
+.second {
+	display: flex;
+	justify-content: center;
+}
+@media (max-width: 550px) {
+	#backdrop {
+		background: black;
+	}
+	.box {
+		width: 100%;
+		padding: 20px;
+	}
+	.btn {
+		margin-left: 0;
+	}
+	.sign_in {
+		width: 100%;
+	}
+	.more {
+		margin-top: 5em;
+	}
+	footer {
+		margin-top: 0;
+		padding: 30px;
+	}
+	.second {
+		flex-direction: column;
+	}
+	.one,
+	.first {
+		margin: 0;
+	}
+}
+@media (max-width: 500px) {
+	.logo {
+		width: 6em;
+	}
+	.logo_area {
+		margin-left: 1em;
+	}
+}
